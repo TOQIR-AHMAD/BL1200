@@ -1,0 +1,108 @@
+    body {
+            background-color: #e8e6e6 !important;
+        }
+
+        .wrapper2 {
+
+            background-color: grey;
+            margin: 10px;
+            border: 2px solid black;
+        }
+
+        .card-body {
+            background-color: #e8e6e6 !important;
+        }
+
+        .card {
+
+            border: 1px solid #959595 !important;
+        }
+
+        input[type=text],
+        select,
+        textarea {
+
+            border: 3px solid #cecece99;
+            border-bottom: 2px solid black;
+            border-radius: -2px;
+            resize: vertical;
+        }
+
+        .input-text {
+            display: flex;
+            margin: 10px;
+        }
+
+        #heading {
+            margin-right: 20px;
+            font-size: 13px;
+            margin-bottom: 0;
+            margin-top: inherit;
+        }
+
+        .card-title {
+            margin-bottom: 10px !important;
+            text-align: left;
+
+        }
+
+        #table-col {
+            border-bottom: 2px solid #b3b3b3 !important;
+            background-color: white;
+
+        }
+
+        #txt {
+            margin-left: 34px;
+        }
+
+        #btn {
+            border: 1px solid #b3b2b2;
+            text-align: center;
+            font-size: 25px;
+            margin-top: 17px;
+            float: right;
+            padding: 50px 35px;
+            color: red;
+            font-weight: 800;
+            background-color: yellow;
+        }
+        @media(max-width:991px)
+        {
+            #btn{
+                float:none;
+            }
+        }
+        #response{
+     border: 2px solid black;
+    background: #ececec;
+    display: flex;
+    margin-left: 8px;
+    width: 125px;
+        }
+        #btn2 {
+
+            float: right;
+            margin-right: 20px;
+            /* width: 8%; */
+            padding: 5px 31px;
+            background-color: black;
+            color: white;
+            /* border: 2px solid white; */
+
+        }
+        .my-custom-scrollbar {
+        
+            position: relative;
+            min-height: 400px;
+            overflow: auto;
+            max-height: 400px;
+        }
+
+        .table-wrapper-scroll-y {
+            display: block;
+        }
+
+        .table>:not(caption)>*>* {
+            border-bottom-width: 0px !important;
+        }
